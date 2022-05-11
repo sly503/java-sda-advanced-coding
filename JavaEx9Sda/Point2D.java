@@ -5,10 +5,11 @@ package JavaEx9Sda;
  * for the purpose of learning and practicing the Java programming language
  */
 
-//create a Point2D class with fields double x, double y, getters, setters and constructor.
+// create a Point2D class with fields double x, double y, getters, setters and
+// constructor.
 
 public class Point2D {
-  
+
     private double x;
     private double y;
 
@@ -32,7 +33,6 @@ public class Point2D {
     public void setY(double y) {
         this.y = y;
     }
-
 
     @Override
     public String toString() {

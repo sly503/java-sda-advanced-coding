@@ -5,7 +5,8 @@ package JavaEx10Sda;
  * for the purpose of learning and practicing the Java programming language
  */
 
-//Create a MoveDirection class with fields double x, double y as well as getters, setters and constructor.
+// Create a MoveDirection class with fields double x, double y as well as
+// getters, setters and constructor.
 public class MoveDirection {
 
     private double x;
@@ -13,7 +14,8 @@ public class MoveDirection {
 
     public MoveDirection(double x, double y) {
         this.x = x;
-        this.y = y;    }
+        this.y = y;
+    }
 
     public double getX() {
         return x;
@@ -31,6 +33,4 @@ public class MoveDirection {
         this.y = y;
     }
 
-
-    
 }

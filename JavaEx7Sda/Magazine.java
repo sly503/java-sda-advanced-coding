@@ -1,14 +1,13 @@
 package JavaEx7Sda;
+
 /**
  * Author: Fatjon Rami
  * for the purpose of learning and practicing the Java programming language
  */
 public class Magazine {
 
-
     private int capacity;
     private int bullets;
-
 
     public Magazine(int i) {
         this.capacity = i;

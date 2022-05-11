@@ -1,10 +1,12 @@
 
 import java.util.TreeMap;
+
 /**
  * Author: Fatjon Rami
  * for the purpose of learning and practicing the Java programming language
  */
-//Create a method that accepts TreeMap and prints the first and last EntrySet in the console.
+// Create a method that accepts TreeMap and prints the first and last EntrySet
+// in the console.
 public class JavaEx6Sda {
 
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class JavaEx6Sda {
         map.put("B", "2");
         map.put("C", "3");
         printFirstAndLastEntrySet(map);
-        
+
     }
 
     public static void printFirstAndLastEntrySet(TreeMap<String, String> map) {
