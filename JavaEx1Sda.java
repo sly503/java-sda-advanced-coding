@@ -8,11 +8,12 @@ public class JavaEx1Sda {
         list.add("Python");
         list.add("C++");
         list.add("C");
-        
+
         System.out.println(sortList(list));
     }
 
-    //Create a method that takes a string list as a parameter, then returns the list sorted alphabetically from Z to A.
+    // Create a method that takes a string list as a parameter, then returns the
+    // list sorted alphabetically from Z to A.
 
     public static List<String> sortList(List<String> list) {
         List<String> sortedList = new ArrayList<>();
@@ -29,11 +30,11 @@ public class JavaEx1Sda {
             sortedList.add(index, current);
         }
 
-
-
         return sortedList;
-        
+
     }
 
+    
+    
+    
 }
-
