@@ -6,9 +6,17 @@ package JavaEx9Sda;
 
 import java.util.ArrayList;
 import java.util.List;
+import JavaEx10Sda.Movable;
+import JavaEx10Sda.MoveDirection;
 
 // create a Circle class that will have a constructor Circle(Point2D center, Point2D point)
-public class Circle {
+/*Exercise 10:
+Implement the interface in the classes from the previous task (Point2D and Circle). When the
+move(MoveDirection moveDirection) method is called, the objects are to change their position based on
+the provided direction (MoveDirection).
+*/
+
+public class Circle implements Movable {
     
     private Point2D center;
     private Point2D point;
@@ -61,5 +69,12 @@ public class Circle {
                 '}';
     }
 
+    @Override
+    public void move(MoveDirection moveDirection) {
+        this.point.setX(this.point.getX() + moveDirection.getX());
+        this.point.setY(this.point.getY() + moveDirection.getY());
+        this.center.setX(this.center.getX() + moveDirection.getX());
+        this.center.setY(this.center.getY() + moveDirection.getY());
+    }
 
 }
