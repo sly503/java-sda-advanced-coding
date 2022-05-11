@@ -4,13 +4,13 @@ import java.util.List;
 public class JavaEx2Sda {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
-        list.add("Java");
-        list.add("Python");
-        list.add("C++");
+        list.add("A");
+        list.add("B");
         list.add("C");
-
+        list.add("d");
         System.out.println(sortList(list));
-        
+        System.out.println(sortList2(list));
+
     }
 
     // Create a method that takes a string list as a parameter, then returns that
@@ -34,4 +34,10 @@ public class JavaEx2Sda {
         return sortedList;
     }
 
+    // using streams return a list sorted alphabetically from Z to A
+    // case-insensitive.
+    public static List<String> sortList2(List<String> list) {
+        return list.stream().sorted((s2, s1) -> s1.compareToIgnoreCase(s2)).collect(ArrayList::new, ArrayList::add,
+                ArrayList::addAll);
+    }
 }
