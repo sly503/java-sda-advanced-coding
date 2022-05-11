@@ -1,7 +1,10 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
-
+/**
+ * Author: Fatjon Rami
+ * for the purpose of learning and practicing the Java programming language
+ */
 public class JavaEx3Sda {
     public static void main(String[] args) {
 

@@ -1,4 +1,8 @@
 package JavaEx7Sda;
+/**
+ * Author: Fatjon Rami
+ * for the purpose of learning and practicing the Java programming language
+ */
 
 /*
 Exercise 7.
@@ -11,6 +15,8 @@ shot() → each call shots one bullet (prints string value in console) - the las
 prepares the next one, loaded before the last one, if there are no more cartridges, it prints "empty
 magazine" in the console
 */
+
+
 public class App {
   public static void main(String[] args) {
     Magazine magazine = new Magazine(10);  
@@ -32,7 +38,7 @@ public class App {
     
     //isLoaded() → returns information about whether the weapon is loaded (at least one cartridge) or not
     System.out.println(magazine.isLoaded());
-    
+
 
   }  
 }

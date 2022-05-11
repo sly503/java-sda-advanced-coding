@@ -1,4 +1,8 @@
 package JavaEx8Sda;
+/**
+ * Author: Fatjon Rami
+ * for the purpose of learning and practicing the Java programming language
+ */
 
 /*
 Implement the Validator interface, which will include a boolean validate(Parcel input) method in its
