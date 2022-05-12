@@ -3,14 +3,14 @@ package JavaEx12Sda;
 /**
  * Author: Fatjon Rami
  * for the purpose of learning and practicing the Java programming language
-*/
+ */
 
 public class Manufacturer {
 
     private String name;
     private int yearOfEstablishment;
     private String country;
-    
+
     public Manufacturer(String name, int yearOfEstablishment, String country) {
         this.name = name;
         this.yearOfEstablishment = yearOfEstablishment;
@@ -52,13 +52,17 @@ public class Manufacturer {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
 
         Manufacturer that = (Manufacturer) o;
 
-        if (yearOfEstablishment != that.yearOfEstablishment) return false;
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (yearOfEstablishment != that.yearOfEstablishment)
+            return false;
+        if (name != null ? !name.equals(that.name) : that.name != null)
+            return false;
         return country != null ? country.equals(that.country) : that.country == null;
     }
 
@@ -70,7 +74,4 @@ public class Manufacturer {
         return result;
     }
 
-
-
-    
 }
