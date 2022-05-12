@@ -47,20 +47,16 @@ public class Circle implements Movable {
 
     // (challenging) three points on the circle every 90 degrees from the point
     // given when calling the list<Point2D> getSlicePoints() method
-
-    // create a list of points on the circle
-    // The formula for sector area is simple - multiply the central angle by the
-    // radius squared, and divide by 2: Sector Area = r² * α / 2.
-
+    
     public List<Point2D> getSlicePoints() {
-        List<Point2D> list = new ArrayList<>();
-        double angle = 0;
-        while (angle < 2 * Math.PI) {
-            list.add(new Point2D(center.getX() + getRadius() * Math.cos(angle),
-                    center.getY() + getRadius() * Math.sin(angle)));
+        List<Point2D> points = new ArrayList<>();
+        double angle = Math.PI / 2;
+        double radius = getRadius();
+        for (int i = 0; i < 3; i++) {
+            points.add(new Point2D(center.getX() + radius * Math.cos(angle), center.getY() + radius * Math.sin(angle)));
             angle += Math.PI / 2;
         }
-        return list;
+        return points;
     }
 
     // toString

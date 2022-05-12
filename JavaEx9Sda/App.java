@@ -19,15 +19,15 @@ public class App {
         System.out.println(c1.getPerimeter());
         System.out.println(c1.getArea());
 
-        // print getSlicePoints in Circle class
-        System.out.println(Arrays.toString(c1.getSlicePoints().toArray()));
+        // print using streams
+        c1.getSlicePoints().forEach(System.out::println);
 
         // try direction move
         MoveDirection m1 = new MoveDirection(2, 1);
         c1.move(m1);
 
-        // print using streams
-        c1.getSlicePoints().forEach(System.out::println);
+        // print getSlicePoints in Circle class
+        System.out.println(Arrays.toString(c1.getSlicePoints().toArray()));
 
     }
 }
