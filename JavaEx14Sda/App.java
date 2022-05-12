@@ -91,7 +91,9 @@ public class App {
         }
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() == max) {
-                mostFrequentList.add(entry.getKey());
+                if(mostFrequentList.size() < 25){
+                    mostFrequentList.add(entry.getKey());
+                }
             }
         }
         return mostFrequentList;
