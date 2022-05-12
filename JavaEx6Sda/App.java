@@ -1,3 +1,4 @@
+package JavaEx6Sda;
 
 import java.util.TreeMap;
 
@@ -7,7 +8,7 @@ import java.util.TreeMap;
  */
 // Create a method that accepts TreeMap and prints the first and last EntrySet
 // in the console.
-public class JavaEx6Sda {
+public class App {
 
     public static void main(String[] args) {
         TreeMap<String, String> map = new TreeMap<>();
