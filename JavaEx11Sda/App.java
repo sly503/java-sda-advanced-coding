@@ -29,8 +29,6 @@ public class App {
         System.out.println(circle);
         circle.resize(22.0);
         System.out.println(circle);
-        
 
-        
     }
 }
