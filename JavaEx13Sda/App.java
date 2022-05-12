@@ -5,11 +5,6 @@ import JavaEx12Sda.Car;
 import JavaEx12Sda.EngineType;
 import JavaEx12Sda.Manufacturer;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 public class App {
 
     public static void main(String[] args) {

@@ -1,10 +1,5 @@
 package JavaEx9Sda;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 // create a Point2D class with fields double x, double y, getters, setters and
 // constructor.
 

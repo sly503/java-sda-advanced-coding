@@ -1,10 +1,5 @@
 package JavaEx10Sda;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 // Create a MoveDirection class with fields double x, double y as well as
 // getters, setters and constructor.
 public class MoveDirection {

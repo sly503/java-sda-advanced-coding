@@ -3,11 +3,6 @@ package JavaEx11Sda;
 import JavaEx9Sda.Circle;
 import JavaEx9Sda.Point2D;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 /*
  * Create a Resizable interface with the resize(double resizeFactor) method.
  * Implement the interface in the class from the previous task (Circle). When

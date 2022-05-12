@@ -4,11 +4,6 @@ import java.util.ArrayList;
 import JavaEx12Sda.Car;
 import JavaEx12Sda.EngineType;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 public class CarService {
     // Create a list of cars
     private ArrayList<Car> cars = new ArrayList<>();

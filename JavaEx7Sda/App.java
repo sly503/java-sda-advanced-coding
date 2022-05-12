@@ -1,10 +1,5 @@
 package JavaEx7Sda;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 /*
  * Exercise 7.
  * Create a class imitating a weapon magazine. The class should be able to

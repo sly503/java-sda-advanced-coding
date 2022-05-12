@@ -1,11 +1,8 @@
 package JavaEx2Sda;
+
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
 public class App {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();

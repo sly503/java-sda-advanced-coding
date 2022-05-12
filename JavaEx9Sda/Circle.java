@@ -1,10 +1,5 @@
 package JavaEx9Sda;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 import java.util.ArrayList;
 import java.util.List;
 import JavaEx10Sda.Movable;
@@ -78,7 +73,6 @@ public class Circle implements Movable, Resizable {
         this.center.setX(this.center.getX() * resizeFactor);
         this.center.setY(this.center.getY() * resizeFactor);
     }
-    
 
     // toString
     @Override

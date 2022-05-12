@@ -2,11 +2,6 @@ package JavaEx12Sda;
 
 import java.util.List;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 /*
  * Create a Car class that will contain fields: name, model, price, year of
  * manufacture, manufacturer list

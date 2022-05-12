@@ -1,8 +1,4 @@
 package JavaEx4Sda;
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
 
 /*
 Create a Storage class that will have a private Map field, a public constructor, and methods:

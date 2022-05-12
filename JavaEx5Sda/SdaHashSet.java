@@ -1,8 +1,4 @@
 package JavaEx5Sda;
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
 
 //https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html
 import java.util.HashSet;

@@ -4,11 +4,6 @@ import java.util.Arrays;
 
 import JavaEx10Sda.MoveDirection;
 
-/**
- * Author: Fatjon Rami
- * for the purpose of learning and practicing the Java programming language
- */
-
 public class App {
     public static void main(String[] args) {
 
