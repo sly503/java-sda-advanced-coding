@@ -1,3 +1,4 @@
+package JavaEx2Sda;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,7 +6,7 @@ import java.util.List;
  * Author: Fatjon Rami
  * for the purpose of learning and practicing the Java programming language
  */
-public class JavaEx2Sda {
+public class App {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("A");

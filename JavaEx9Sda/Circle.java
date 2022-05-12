@@ -9,15 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import JavaEx10Sda.Movable;
 import JavaEx10Sda.MoveDirection;
+import JavaEx11Sda.Resizable;
 
 // create a Circle class that will have a constructor Circle(Point2D center, Point2D point)
-/*Exercise 10:
-Implement the interface in the classes from the previous task (Point2D and Circle). When the
-move(MoveDirection moveDirection) method is called, the objects are to change their position based on
-the provided direction (MoveDirection).
-*/
 
-public class Circle implements Movable {
+public class Circle implements Movable, Resizable {
 
     private Point2D center;
     private Point2D point;
@@ -47,7 +43,7 @@ public class Circle implements Movable {
 
     // (challenging) three points on the circle every 90 degrees from the point
     // given when calling the list<Point2D> getSlicePoints() method
-    
+
     public List<Point2D> getSlicePoints() {
         List<Point2D> points = new ArrayList<>();
         double angle = Math.PI / 2;
@@ -59,6 +55,31 @@ public class Circle implements Movable {
         return points;
     }
 
+    /*
+     * Exercise 10:
+     * When the move(MoveDirection moveDirection) method is called,
+     * the objects are to change their position based on the provided direction
+     * (MoveDirection).
+     */
+    @Override
+    public void move(MoveDirection moveDirection) {
+        this.point.setX(this.point.getX() + moveDirection.getX());
+        this.point.setY(this.point.getY() + moveDirection.getY());
+        this.center.setX(this.center.getX() + moveDirection.getX());
+        this.center.setY(this.center.getY() + moveDirection.getY());
+    }
+
+    // Exercise 11:
+    // resize the circle by the given factor when calling the resize method
+    @Override
+    public void resize(double resizeFactor) {
+        this.point.setX(this.point.getX() * resizeFactor);
+        this.point.setY(this.point.getY() * resizeFactor);
+        this.center.setX(this.center.getX() * resizeFactor);
+        this.center.setY(this.center.getY() * resizeFactor);
+    }
+    
+
     // toString
     @Override
     public String toString() {
@@ -66,14 +87,6 @@ public class Circle implements Movable {
                 "center=" + center +
                 ", point=" + point +
                 '}';
-    }
-
-    @Override
-    public void move(MoveDirection moveDirection) {
-        this.point.setX(this.point.getX() + moveDirection.getX());
-        this.point.setY(this.point.getY() + moveDirection.getY());
-        this.center.setX(this.center.getX() + moveDirection.getX());
-        this.center.setY(this.center.getY() + moveDirection.getY());
     }
 
 }
