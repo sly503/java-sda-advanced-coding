@@ -2,6 +2,7 @@ package JavaEx14Sda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,7 +10,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        int[] array = generateRandomArray(100);
+        int[] array = generateRandomArray(100000,10000);
 
         System.out.println(Arrays.toString(array));
         System.out.println(findUniqueElements(array));
@@ -19,10 +20,10 @@ public class App {
     }
 
     // array generator
-    public static int[] generateRandomArray(int size) {
+    public static int[] generateRandomArray(int size, int maxValue) {
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
-            array[i] = (int) (Math.random() * 100);
+            array[i] = (int) (Math.random() * maxValue);
         }
         return array;
     }
@@ -41,7 +42,7 @@ public class App {
         }
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() == 1) {
-                System.out.println(entry.getKey());
+
                 uniqueList.add(entry.getKey());
 
             }
@@ -72,31 +73,18 @@ public class App {
         return repeatedList;
     }
 
-    // return a list of the 25 most frequently recurring items.
+    // return 25 elements of the list that have been repeated the most
     public static ArrayList<Integer> findMostFrequentElements(int[] array) {
-        Map<Integer, Integer> map = new HashMap<>();
-        ArrayList<Integer> mostFrequentList = new ArrayList<>();
-        for (int i = 0; i < array.length; i++) {
-            if (map.containsKey(array[i])) {
-                map.put(array[i], map.get(array[i]) + 1);
-            } else {
-                map.put(array[i], 1);
-            }
+        ArrayList<Integer> popularList = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int i : array) {
+            Integer count = map.get(i);
+            map.put(i, count != null ? count + 1 : 1);
         }
-        int max = 0;
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() > max) {
-                max = entry.getValue();
-            }
-        }
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() == max) {
-                if(mostFrequentList.size() < 25){
-                    mostFrequentList.add(entry.getKey());
-                }
-            }
-        }
-        return mostFrequentList;
+        map.entrySet().stream().sorted(Collections.reverseOrder(Map.Entry.comparingByValue())).limit(25).forEach(x -> popularList.add(x.getKey()));
+        return popularList;
+
     }
+    
 
 }
