@@ -10,18 +10,6 @@ public class BasketFullException extends Exception {
         super(message);
     }
 
-    public BasketFullException(String message, Throwable cause) {
-        super(message, cause);
-    }
-
-    public BasketFullException(Throwable cause) {
-        super(cause);
-    }
-
-    protected BasketFullException(String message, Throwable cause, boolean enableSuppression,
-            boolean writableStackTrace) {
-        super(message, cause, enableSuppression, writableStackTrace);
-    }
 
     @Override
     public String toString() {
