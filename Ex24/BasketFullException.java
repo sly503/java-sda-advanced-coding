@@ -18,7 +18,8 @@ public class BasketFullException extends Exception {
         super(cause);
     }
 
-    protected BasketFullException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+    protected BasketFullException(String message, Throwable cause, boolean enableSuppression,
+            boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 

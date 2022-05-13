@@ -18,7 +18,8 @@ public class BasketEmptyException extends Exception {
         super(cause);
     }
 
-    protected BasketEmptyException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+    protected BasketEmptyException(String message, Throwable cause, boolean enableSuppression,
+            boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 
@@ -31,6 +32,5 @@ public class BasketEmptyException extends Exception {
     public String getMessage() {
         return "The basket is empty";
     }
-
 
 }

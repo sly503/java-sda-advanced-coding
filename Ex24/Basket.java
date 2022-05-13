@@ -27,7 +27,6 @@ public class Basket {
     public int getCurrentState() {
         return this.currentState;
     }
-    
 
     // to string
     @Override
