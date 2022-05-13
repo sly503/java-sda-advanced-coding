@@ -1,0 +1,1 @@
+Create a method that accepts TreeMap and prints the first and last EntrySet in the console.

@@ -1,4 +1,3 @@
-Exercise 20.
 Create an abstract Shape class with the abstract methods calculatePerimeter() for calculating the
 perimeter and calculateArea() for calculating the area.
 Create Rectangle, Triangle, Hexagon classes, extending the Shape class, and implementing abstract
