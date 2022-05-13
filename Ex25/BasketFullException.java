@@ -1,6 +1,6 @@
-package Ex24;
+package Ex25;
 
-public class BasketFullException extends RuntimeException {
+public class BasketFullException extends Exception{
 
     public BasketFullException() {
         super();
@@ -9,7 +9,6 @@ public class BasketFullException extends RuntimeException {
     public BasketFullException(String message) {
         super(message);
     }
-
 
     @Override
     public String toString() {
@@ -20,5 +19,8 @@ public class BasketFullException extends RuntimeException {
     public String getMessage() {
         return "The basket is full";
     }
+    
 
+
+    
 }

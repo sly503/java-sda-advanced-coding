@@ -1,4 +1,4 @@
-package Ex24;
+package Ex25;
 
 public class Basket {
 
@@ -29,10 +29,5 @@ public class Basket {
         return this.currentState;
     }
 
-    // to string
-    @Override
-    public String toString() {
-        return "Current state: " + currentState;
-    }
-
+    
 }

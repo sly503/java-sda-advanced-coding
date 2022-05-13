@@ -1,15 +1,12 @@
-package Ex24;
-
-public class BasketEmptyException extends RuntimeException {
-
+package Ex25;
+// to checked exception type
+public class BasketEmptyException extends Exception {
     public BasketEmptyException() {
         super();
     }
-
     public BasketEmptyException(String message) {
         super(message);
     }
-
     @Override
     public String toString() {
         return "BasketEmptyException{" + '}';
@@ -20,4 +17,6 @@ public class BasketEmptyException extends RuntimeException {
         return "The basket is empty";
     }
 
+    
+    
 }

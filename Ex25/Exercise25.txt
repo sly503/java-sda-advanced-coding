@@ -1,0 +1,4 @@
+Change the BasketFullException and BasketEmptyException exceptions from runtime exception type to
+checked exception type.
+Handle them.
+
