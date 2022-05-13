@@ -1,0 +1,5 @@
+package Ex26;
+
+public enum CarType {
+    SEDAN, CABRIO, SUV, MINIVAN, HATCHBACK, PICKUP, VAN, TRUCK, MOTORCYCLE, TRACTOR, BUS, OTHER
+}
