@@ -1,4 +1,4 @@
-package JavaEx17Sda;
+package Ex17;
 
 public class App {
 
@@ -23,7 +23,7 @@ public class App {
         double inches2 = 40;
         double centimeters2 = MeasurementConverter.convert(inches2, ConversionType.INCHES_TO_CENTIMETERS);
         System.out.println(centimeters2);
-        
+
 
     }
     

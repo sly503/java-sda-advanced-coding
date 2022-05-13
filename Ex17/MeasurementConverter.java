@@ -1,4 +1,4 @@
-package JavaEx17Sda;
+package Ex17;
 
 
 public class MeasurementConverter {

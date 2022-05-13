@@ -1,4 +1,4 @@
-package JavaEx18Sda;
+package Ex18;
 
 
 public class App {

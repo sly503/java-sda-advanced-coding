@@ -1,4 +1,4 @@
-package JavaEx9Sda;
+package Ex9;
 
 // create a Point2D class with fields double x, double y, getters, setters and
 // constructor.

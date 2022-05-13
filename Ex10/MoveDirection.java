@@ -1,4 +1,4 @@
-package JavaEx10Sda;
+package Ex10;
 
 // Create a MoveDirection class with fields double x, double y as well as
 // getters, setters and constructor.

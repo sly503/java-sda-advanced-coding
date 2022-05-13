@@ -1,9 +1,10 @@
-package JavaEx13Sda;
+package Ex13;
 
 import java.util.List;
-import JavaEx12Sda.Car;
-import JavaEx12Sda.EngineType;
-import JavaEx12Sda.Manufacturer;
+
+import Ex12.Car;
+import Ex12.EngineType;
+import Ex12.Manufacturer;
 
 public class App {
 

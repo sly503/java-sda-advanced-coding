@@ -1,4 +1,4 @@
-package JavaEx4Sda;
+package Ex4;
 
 public class App {
     public static void main(String[] args) {

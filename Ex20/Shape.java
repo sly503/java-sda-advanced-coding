@@ -1,4 +1,4 @@
-package JavaEx20sda;
+package Ex20;
 
 public abstract class Shape {
 

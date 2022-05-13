@@ -1,4 +1,4 @@
-package JavaEx2Sda;
+package Ex2;
 
 import java.util.ArrayList;
 import java.util.List;

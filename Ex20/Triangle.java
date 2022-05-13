@@ -1,4 +1,4 @@
-package JavaEx20sda;
+package Ex20;
 
 
 //A = 1/2 × b × h.
@@ -22,7 +22,7 @@ public class Triangle extends Shape {
         return sideA + sideB + sideC;
     }
 
-    
+
     @Override
     public double calculateArea() {
         return (1.0 / 2) * sideA * sideB;

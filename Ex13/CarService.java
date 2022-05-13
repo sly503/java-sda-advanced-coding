@@ -1,8 +1,9 @@
-package JavaEx13Sda;
+package Ex13;
 
 import java.util.ArrayList;
-import JavaEx12Sda.Car;
-import JavaEx12Sda.EngineType;
+
+import Ex12.Car;
+import Ex12.EngineType;
 
 public class CarService {
     // Create a list of cars

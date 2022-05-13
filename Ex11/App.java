@@ -1,7 +1,7 @@
-package JavaEx11Sda;
+package Ex11;
 
-import JavaEx9Sda.Circle;
-import JavaEx9Sda.Point2D;
+import Ex9.Circle;
+import Ex9.Point2D;
 
 /*
  * Create a Resizable interface with the resize(double resizeFactor) method.

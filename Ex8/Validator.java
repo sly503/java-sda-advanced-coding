@@ -1,4 +1,4 @@
-package JavaEx8Sda;
+package Ex8;
 
 public interface Validator {
 

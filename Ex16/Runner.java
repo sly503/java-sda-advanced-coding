@@ -1,4 +1,4 @@
-package JavaEx16Sda;
+package Ex16;
 
 public enum Runner {
     BEGINNER(10,20), INTERMEDIATE(20,30), ADVANCED(30,40);

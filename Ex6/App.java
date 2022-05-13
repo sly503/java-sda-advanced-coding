@@ -1,4 +1,4 @@
-package JavaEx6Sda;
+package Ex6;
 
 import java.util.TreeMap;
 

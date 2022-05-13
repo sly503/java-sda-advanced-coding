@@ -1,4 +1,4 @@
-package JavaEx7Sda;
+package Ex7;
 
 public class Magazine {
 

@@ -1,4 +1,4 @@
-package JavaEx10Sda;
+package Ex10;
 
 // create a Movable interface with the move(MoveDirection moveDirection) method.
 public interface Movable {

@@ -1,4 +1,4 @@
-package JavaEx7Sda;
+package Ex7;
 
 /*
  * Exercise 7.

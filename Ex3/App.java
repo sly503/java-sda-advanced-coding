@@ -1,4 +1,4 @@
-package JavaEx3Sda;
+package Ex3;
 
 import java.util.HashMap;
 import java.util.Map;

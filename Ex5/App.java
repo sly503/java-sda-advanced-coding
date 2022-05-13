@@ -1,4 +1,4 @@
-package JavaEx5Sda;
+package Ex5;
 
 public class App {
 

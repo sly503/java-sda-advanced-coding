@@ -1,10 +1,11 @@
-package JavaEx9Sda;
+package Ex9;
 
 import java.util.ArrayList;
 import java.util.List;
-import JavaEx10Sda.Movable;
-import JavaEx10Sda.MoveDirection;
-import JavaEx11Sda.Resizable;
+
+import Ex10.Movable;
+import Ex10.MoveDirection;
+import Ex11.Resizable;
 
 // create a Circle class that will have a constructor Circle(Point2D center, Point2D point)
 

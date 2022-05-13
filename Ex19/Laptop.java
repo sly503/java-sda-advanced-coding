@@ -1,6 +1,6 @@
-package JavaEx19Sda;
+package Ex19;
 
-import JavaEx18Sda.Computer;
+import Ex18.Computer;
 
 //Create a Laptop class extending the Computer class from the previous task. The Laptop class should
 //additionally contain the battery parameter.

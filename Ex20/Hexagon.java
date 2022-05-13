@@ -1,4 +1,4 @@
-package JavaEx20sda;
+package Ex20;
 
 public class Hexagon extends Shape {
 

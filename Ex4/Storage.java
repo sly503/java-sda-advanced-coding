@@ -1,4 +1,4 @@
-package JavaEx4Sda;
+package Ex4;
 
 /*
 Create a Storage class that will have a private Map field, a public constructor, and methods:

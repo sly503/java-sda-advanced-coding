@@ -1,4 +1,4 @@
-package JavaEx8Sda;
+package Ex8;
 
 /*
  * Implement the Validator interface, which will include a boolean

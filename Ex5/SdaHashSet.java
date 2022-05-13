@@ -1,4 +1,4 @@
-package JavaEx5Sda;
+package Ex5;
 
 //https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html
 import java.util.HashSet;

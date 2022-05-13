@@ -1,4 +1,4 @@
-package JavaEx12Sda;
+package Ex12;
 
 import java.util.List;
 

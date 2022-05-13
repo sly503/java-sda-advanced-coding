@@ -1,8 +1,8 @@
-package JavaEx9Sda;
+package Ex9;
 
 import java.util.Arrays;
 
-import JavaEx10Sda.MoveDirection;
+import Ex10.MoveDirection;
 
 public class App {
     public static void main(String[] args) {
