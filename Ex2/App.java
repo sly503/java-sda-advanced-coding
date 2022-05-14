@@ -15,9 +15,6 @@ public class App {
 
     }
 
-    // Create a method that takes a string list as a parameter, then returns that
-    // list sorted alphabetically from Z to A case-insensitive.
-
     public static List<String> sortList(List<String> list) {
         List<String> sortedList = new ArrayList<>();
 
@@ -36,8 +33,7 @@ public class App {
         return sortedList;
     }
 
-    // using streams return a list sorted alphabetically from Z to A
-    // case-insensitive.
+    // using streams
     public static List<String> sortList2(List<String> list) {
         return list.stream().sorted((s2, s1) -> s1.compareToIgnoreCase(s2)).collect(ArrayList::new, ArrayList::add,
                 ArrayList::addAll);

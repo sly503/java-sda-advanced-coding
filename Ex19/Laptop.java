@@ -2,12 +2,7 @@ package Ex19;
 
 import Ex18.Computer;
 
-//Create a Laptop class extending the Computer class from the previous task. The Laptop class should
-//additionally contain the battery parameter.
-//Implement additional getters, setters, constructor and overwrite the toString(), equals() and hashcode()
-//methods accordingly.
-//Use a reference to parent class methods
-public class Laptop extends Computer{
+public class Laptop extends Computer {
 
     private int battery;
 
@@ -53,5 +48,5 @@ public class Laptop extends Computer{
         hash = 97 * hash + this.battery;
         return hash;
     }
-    
+
 }

@@ -2,12 +2,9 @@ package Ex9;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import Ex10.Movable;
 import Ex10.MoveDirection;
 import Ex11.Resizable;
-
-// create a Circle class that will have a constructor Circle(Point2D center, Point2D point)
 
 public class Circle implements Movable, Resizable {
 
@@ -19,26 +16,17 @@ public class Circle implements Movable, Resizable {
         this.point = point;
     }
 
-    // circle radius when calling double getRadius() method
-
     public double getRadius() {
         return Math.sqrt(Math.pow(center.getX() - point.getX(), 2) + Math.pow(center.getY() - point.getY(), 2));
     }
-
-    // circle circumference when calling double getPerimeter() method
 
     public double getPerimeter() {
         return 2 * Math.PI * getRadius();
     }
 
-    // circle area when calling double getArea() method
-
     public double getArea() {
         return Math.PI * Math.pow(getRadius(), 2);
     }
-
-    // (challenging) three points on the circle every 90 degrees from the point
-    // given when calling the list<Point2D> getSlicePoints() method
 
     public List<Point2D> getSlicePoints() {
         List<Point2D> points = new ArrayList<>();

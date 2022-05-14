@@ -1,13 +1,5 @@
 package Ex4;
 
-/*
-Create a Storage class that will have a private Map field, a public constructor, and methods:
-addToStorage(String key, String value) → adding elements to the storage
-printValues(String key) → displaying all elements under a given key
-findValues(String value) → displaying all keys that have a given value
-The Storage class should allow you to store multiple values under one key
-*/
-
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap;
@@ -20,7 +12,6 @@ public class Storage {
         storage = new TreeMap<>();
     }
 
-    // addToStorage(String key, String value) → adding elements to the storage
     public void addToStorage(String key, String value) {
         if (storage.containsKey(key)) {
             storage.get(key).add(value);
@@ -31,7 +22,6 @@ public class Storage {
 
     }
 
-    // printValues(String key) → displaying all elements under a given key
     public void printValues(String key) {
         if (storage.containsKey(key)) {
             System.out.println(storage.get(key));
@@ -40,7 +30,6 @@ public class Storage {
         }
     }
 
-    // findValues(String value) → displaying all keys that have a given value
     public void findValues(String value) {
         for (Map.Entry<String, ArrayList<String>> entry : storage.entrySet()) {
             if (entry.getValue().contains(value)) {

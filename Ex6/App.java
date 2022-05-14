@@ -2,8 +2,6 @@ package Ex6;
 
 import java.util.TreeMap;
 
-// Create a method that accepts TreeMap and prints the first and last EntrySet
-// in the console.
 public class App {
 
     public static void main(String[] args) {

@@ -18,7 +18,6 @@ public class App {
         System.out.println(triangle1.calculatePerimeter());
         System.out.println(triangle1.calculateArea());
 
-
     }
-    
+
 }

@@ -14,9 +14,6 @@ public class App {
         System.out.println(sortList(list));
     }
 
-    // Create a method that takes a string list as a parameter, then returns the
-    // list sorted alphabetically from Z to A.
-
     public static List<String> sortList(List<String> list) {
         List<String> sortedList = new ArrayList<>();
 

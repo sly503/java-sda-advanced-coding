@@ -21,10 +21,6 @@ public class Cone extends $3DShape {
         return Math.PI * radius * (radius + Math.sqrt(radius * radius + height * height));
     }
 
-    // given the perimeter of the base of a cone which is the same as the
-    // circumference of a circle, that is, C=2πr .
-    // Then, we have to substitute this value in the formula of curved surface area
-    // which is πrl (C * sland Height) .
     @Override
     public double calculatePerimeter() {
         Double C = 2 * Math.PI * radius;

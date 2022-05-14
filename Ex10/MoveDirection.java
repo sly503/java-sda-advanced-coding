@@ -1,7 +1,5 @@
 package Ex10;
 
-// Create a MoveDirection class with fields double x, double y as well as
-// getters, setters and constructor.
 public class MoveDirection {
 
     private double x;

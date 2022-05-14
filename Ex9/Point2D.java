@@ -1,8 +1,5 @@
 package Ex9;
 
-// create a Point2D class with fields double x, double y, getters, setters and
-// constructor.
-
 public class Point2D {
 
     private double x;

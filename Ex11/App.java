@@ -3,15 +3,6 @@ package Ex11;
 import Ex9.Circle;
 import Ex9.Point2D;
 
-/*
- * Create a Resizable interface with the resize(double resizeFactor) method.
- * Implement the interface in the class from the previous task (Circle). When
- * calling the resize(double
- * resizeFactor) method, the circle should change its size by a given factor
- * (1.5, 0.5, 10.0, etc.).
- * Validate the resizing by calling the other Circle methods.
- */
-
 public class App {
     public static void main(String[] args) {
         Circle circle = new Circle(new Point2D(0, 0), new Point2D(1, 1));
