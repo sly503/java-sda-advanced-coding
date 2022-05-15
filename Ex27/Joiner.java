@@ -8,9 +8,7 @@ eg. for Integers and separator "-" it should return: 1-2-3-4 ...
 
 */
 public class Joiner<T> {
-    //Design the Joiner<T> class, which in the constructor will take a separator (string) and have a join() method
-//that allows you to specify any number of T-type objects
-
+    
     private String separator;
     private T[] array;
 
